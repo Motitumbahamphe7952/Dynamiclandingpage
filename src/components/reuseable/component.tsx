@@ -22,10 +22,10 @@ interface HeroProps {
 }
 
 const Components = ({
-  title = "Driving",
-  highlight1 = "Innovation",
-  middleText = "through",
-  highlight2 = "Team work.",
+  title = "Engineering The ",
+  highlight1 = "Future",
+  middleText = "",
+  highlight2 = "Unified",
   showParagraph = false,
   paragraph = "",
   bgImage,
@@ -55,7 +55,7 @@ const Components = ({
             {title} <span className="text-[#4682B4]">{highlight1}</span>{" "}
             {middleText}
             <br />
-            Collective <span className="text-[#4682B4]">{highlight2}</span>
+            Through <span className="text-[#4682B4]">{highlight2}</span> Vision.
           </h1>
         </div>
         <div>
